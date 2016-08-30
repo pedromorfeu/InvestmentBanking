@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="FpML",
-    version="0.0.3",
+    version="0.0.4",
     description="FpML",
     packages=["FpML"]
 )

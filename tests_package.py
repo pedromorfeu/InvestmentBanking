@@ -17,3 +17,4 @@ x = RequestConfirmation(
             ))))
 
 print(x)
+print(x.trade.tradeHeader)
