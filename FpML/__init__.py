@@ -33,8 +33,8 @@ class QuotedCurrencyPair:
         self.quoteBasis = quoteBasis
 
 class ExchangeRate:
-    def __init__(self, qcp, rate):
-        self.qcp = qcp
+    def __init__(self, quotedCurrencyPair, rate):
+        self.quotedCurrencyPair = quotedCurrencyPair
         self.rate = rate
 
 class FxSingleLeg:

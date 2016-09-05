@@ -1,0 +1,15 @@
+class Trade:
+  def __init__(self, _id, _book, _tradeDate, _ccy1, _ccy1Amount, _ccy2, _ccy2Amount, _value_date, _exch_rate_ccy1, _exch_rate_ccy2, _exch_rate, _exch_rate_quote_basis):
+    self.id = _id
+    self.book = _book
+    self.tradeDate = _tradeDate
+    self.ccy1 = _ccy1
+    self.ccy1Amount = _ccy1Amount
+    self.ccy2 = _ccy2
+    self.ccy2Amount = _ccy2Amount
+    self.value_date = _value_date
+    self.exch_rate_ccy1 = _exch_rate_ccy1
+    self.exch_rate_ccy2 = _exch_rate_ccy2
+    self.exch_rate = _exch_rate
+    self.exch_rate_quote_basis = _exch_rate_quote_basis
+
